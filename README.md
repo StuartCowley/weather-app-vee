@@ -1,12 +1,40 @@
-# Getting Started with Create React App
+# Weather App 🌧
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This 5 day weather forecasting app was created as part of the [Manchester Codes](https://www.manchestercodes.com/) Bootcamp.
 
-## Available Scripts
+The concepts covered in the build of this project are:
+
+- React
+- JSX
+- Props
+- Props validations
+- State
+- Stateful components
+- Stateless components
+- React Hooks
+- React Testing Library
+- Request/Response
+- Error Handling
+
+## Get Started - Browser
+
+The Weather App is hosted here on GitHub Pages [https://veeuye.github.io/weather-app](https://veeuye.github.io/weather-app). You can get started by opening the link in your preferred browser.
+
+## Get Started - Local Installation
+
+#### 1. Clone this repo
+
+Clone [Weather App](https://github.com/VeeUye/weather-app). For more information, visit [cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
+#### 2. Install Node Packages
+
+Use the terminal command `npm install` in the root of your local Music Library repo.
 
 In the project directory, you can run:
 
-### `npm start`
+#### 3. Run App in Development Mode
+
+`npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,57 +42,42 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+#### 4. Testing
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`npm test`
 
-### `npm run build`
+Launches the test runner in the interactive watch mode.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Using Weather App
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The app will provide a 5-day forecast for a UK city or town. Use the search form to submit a valid UK city or town.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+For a detailed summary on a specific date, use the '**More details...**' link at the bottom of the forecast summary.
 
-### `npm run eject`
+## Media
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Weather App Desktop Version](./readme-media/weather-app-desktop.png?raw=true "Title")
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Weather App Mobile Version](./readme-media/mobile-version.png?raw=true "Title")
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Roadmap
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [x] Responsive, mobile first design
+- [ ] Migrate API to provide international forecast functionality
+- [x] Emphasise selected Forecast Summary on select
+- [ ] Display wind cardinal direction as icon
+- [ ] Display loading message when awaiting API response
 
-## Learn More
+## Contributions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Please make sure to update tests as appropriate.
 
-### Code Splitting
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[Manchester Codes](https://www.manchestercodes.com/) for including this project on their Bootcamp learning track.
 
-### Analyzing the Bundle Size
+## Project Status
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Active!

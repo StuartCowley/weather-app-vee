@@ -1,0 +1,8 @@
+.weather-app {
+  margin: 1rem 20px;
+}
+
+a:visited,
+a:active {
+  color: inherit;
+}
